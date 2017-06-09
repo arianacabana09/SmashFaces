@@ -1,5 +1,5 @@
 html{
-  font-family: 'Rokkitt', serif;
+
   font-family: 'Roboto', sans-serif;
 }
 
@@ -7,4 +7,15 @@ body{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.title{
+  font-family: 'Rokkitt', serif;
+}
+
+hr{
+  width: 30px;
+  border: 2px solid black;
+  position: absolute;
+  left: 2px;
 }
