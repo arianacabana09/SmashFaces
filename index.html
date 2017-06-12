@@ -5,48 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/ico" href="assets/img/icon.png">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- <link rel="stylesheet" href="assets/css/materialize.min.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rokkitt" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
   <title>Smash Faces | jQuery</title>
 </head>
 <body>
-  <head>
-    <div class="title">
+  <header>
+    <div class="title f-rok">
       <h1>Smash Faces</h1>
       <hr>
     </div>
-  </head>
+  </header>
   <section>
-    <div class="intro">
+    <div class="intro f-rob">
       <p>Bienvenidas al juego de Smash Faces, tu mision es poder identificar a todas tus compañeras de clase
-        ingresando para ellos su nombre. Tienes 5 opotunidades antes de perder 1 punto y pasar a la siguiente</p>
+        ingresando para ellos su nombre. Tienes 5 opotunidades antes de perder 1 punto y pasar a la siguiente
+      </p>
     </div>
-    <div class="play">
-      <div class="opcion">
-        <label for="sede">Elige tu sede</label>
-        <select class="sede" name="sede">
+    <div class="">
+      <div class="opcion f-rok d-iblock">
+        <p class="d-iblock">Elige tu sede</p>
+        <select class="d-iblock" id="sede" name="sede">
           <option value="" hidden>Selecciona tu sede</option>
           <option value="lima">Lima</option>
           <option value="mexico">México</option>
         </select>
       </div>
-      <div class="score">
-        <label for="">Puntos: 0 puntos</label>
+      <div class="score f-rok d-iblock">
+        <h5>Puntos: 0 puntos</h5>
       </div>
-      <div class="box-playface">
         <form class="play-face">
-          <div class="box-img"><img src="assets/materiales/fotos/peru/Astrid Córdova.jpg" alt="Astrid Córdova"></div>
-          <div class="box-rspt">
+          <div class="d-iblock box-img"><img src="assets/img/peru/Astrid Córdova.jpg" alt="Astrid Córdova"></div>
+          <div class="box-rspt d-iblock">
               <label for="">Ingrese su nombre</label>
               <input type="text" placeholder="Nombre">
               <button type="button" name="button">COMPROBAR</button>
           </div>
         </form>
-      </div>
     </div>
   </section>
 
   <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/materialize.min.js"></script>
   <script src="assets/js/app.js" set="utf-8"></script>
 </body>
 </html>
