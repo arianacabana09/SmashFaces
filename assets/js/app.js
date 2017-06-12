@@ -15,11 +15,11 @@ $(()=>{
       let imgName = peru[i].name;
       images.attr("src", imgSrcp);
     } else {
-      // $('.box-img').toggleClass('none');
-      //
-      // let imgSrcm = "assets/img/mexico/" + mexico[i].image;
-      //
-      // images.attr("src", imgSrcm);
+      $('.box-img').toggleClass('none');
+
+      let imgSrcm = "assets/img/mexico/" + mexico[i].image;
+
+      images.attr("src", imgSrcm);
     }
 
   });
